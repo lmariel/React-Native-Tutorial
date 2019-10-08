@@ -12,6 +12,8 @@ import {
 
 import { MonoText } from '../components/StyledText';
 import HelloWorld from '../components/HelloWorld';
+import Bananas from '../components/Bananas';
+import LotsOfGreetings from '../components/Greeting';
 
 export default function HomeScreen() {
   return (
@@ -57,8 +59,10 @@ export default function HomeScreen() {
           <Text style={styles.getStartedText}>
             This is the home page!
           </Text>
+          <HelloWorld />
+          <Bananas />
+          <LotsOfGreetings />
         </View>
-        <HelloWorld />
       </ScrollView>
 
       <View style={styles.tabBarInfoContainer}>
