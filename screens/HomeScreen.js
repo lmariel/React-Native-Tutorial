@@ -14,6 +14,8 @@ import { MonoText } from '../components/StyledText';
 import HelloWorld from '../components/HelloWorld';
 import Bananas from '../components/Bananas';
 import LotsOfGreetings from '../components/Greeting';
+import BlinkingText from '../components/BlinkingText';
+
 
 export default function HomeScreen() {
   return (
@@ -62,6 +64,7 @@ export default function HomeScreen() {
           <HelloWorld />
           <Bananas />
           <LotsOfGreetings />
+          <BlinkingText />
         </View>
       </ScrollView>
 
